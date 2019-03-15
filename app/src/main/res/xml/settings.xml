@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/display_options">
+        <ListPreference
+            android:title="@string/task_order"
+            android:summary="%s"
+            android:entries="@array/orderby_entries"
+            android:entryValues="@array/orderby_entry_values"
+            android:defaultValue="1"
+            android:key="orderby"/>
+        <CheckBoxPreference
+            android:title="@string/show_completed"
+            android:summary=""
+            android:defaultValue="true"
+            android:key="showcompleted"/>
+        <CheckBoxPreference
+            android:title="@string/show_unprioritized"
+            android:summary=""
+            android:defaultValue="true"
+            android:key="showunprioritized"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/action_options">
+        <CheckBoxPreference
+            android:title="@string/show_confirmalert"
+            android:summary=""
+            android:defaultValue="true"
+            android:key="showconfirmalert"/>
+    </PreferenceCategory>
+</PreferenceScreen>

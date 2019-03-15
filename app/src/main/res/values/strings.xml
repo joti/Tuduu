@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Tuduu</string>
+    <string name="action_settings">Settings...</string>
+    <string name="priority">Priority:</string>
+    <string name="deadline">Deadline:</string>
+    <string name="taskname">Name:</string>
+    <string name="taskdesc">Description:</string>
+    <string name="category">Category:</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="delete">Delete</string>
+    <string name="task_removed">Task has been deleted</string>
+    <string name="tasks_removed">Tasks have been deleted</string>
+    <string name="action_categories">Categories...</string>
+    <string name="rename">Rename</string>
+    <string name="edit">Edit...</string>
+    <string name="ctg_removed">Category has been deleted</string>
+    <string name="category_cant_delete">Category cannot be deleted</string>
+    <string name="add_category">Add categ.</string>
+    <string name="category_name">Category name:</string>
+    <string name="name_empty">Name cannot be empty</string>
+    <string name="select_category">Please select category</string>
+    <string name="categories">Categories</string>
+    <string name="all_tasks">All tasks</string>
+    <string name="category_title">Category</string>
+    <string name="task_title">Task</string>
+
+    <string-array name="priorities">
+        <item>None</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string name="settings_title">Settings</string>
+    <string name="setdone">Mark as completed</string>
+    <string name="task_already_done">Task is already completed</string>
+    <string name="cleardone">Mark as incomplete</string>
+    <string name="show_completed">Show completed tasks</string>
+    <string name="completed">Completed</string>
+    <string name="delete_proceed">Proceed with delete?</string>
+    <string name="show_confirmalert">Delete with confirmation</string>
+    <string name="task_order">Ordering tasks by</string>
+    <string name="display_options">Display</string>
+    <string name="action_options">Actions</string>
+    <string name="delete_completed">Delete completed tasks</string>
+    <string name="delete_all">Delete all tasks</string>
+    <string name="no_category_found">There are no categories yet.</string>
+    <string name="show_unprioritized">Show unprioritized tasks</string>
+
+    <!-- Strings related to Settings -->
+    <string-array name="orderby_entries">
+        <item>Name</item>
+        <item>Priority</item>
+        <item>Deadline</item>
+        <item>Order of creation</item>
+    </string-array>
+
+</resources>

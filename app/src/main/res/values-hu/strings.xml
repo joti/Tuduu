@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tuduu</string>
+    <string name="action_settings">Beállítások...</string>
+    <string name="priority">Fontosság:</string>
+    <string name="deadline">Határidő:</string>
+    <string name="taskname">Megnevezés:</string>
+    <string name="taskdesc">Leírás:</string>
+    <string name="category">Kategória:</string>
+    <string name="cancel">Mégse</string>
+    <string name="ok">OK</string>
+
+    <string-array name="priorities">
+        <item>---</item>
+        <item>Alacsony</item>
+        <item>Közepes</item>
+        <item>Magas</item>
+    </string-array>
+
+    <string name="delete">Törlés</string>
+    <string name="task_removed">Feladat törölve</string>
+    <string name="tasks_removed">Feladatok törölve</string>
+    <string name="action_categories">Kategóriák...</string>
+    <string name="rename">Átnevezés</string>
+    <string name="edit">Szerkesztés....</string>
+    <string name="ctg_removed">Kategória törölve</string>
+    <string name="category_cant_delete">A kategória nem törölhető</string>
+    <string name="add_category">Hozzáad</string>
+    <string name="category_name">Megnevezés:</string>
+    <string name="name_empty">A név nem lehet üres</string>
+    <string name="select_category">Válassz kategóriát!</string>
+    <string name="categories">Kategóriák</string>
+    <string name="all_tasks">Összes teendő</string>
+    <string name="category_title">Kategória</string>
+    <string name="task_title">Feladat</string>
+    <string name="settings_title">Beállítások</string>
+    <string name="setdone">Teljesítettnek jelölés</string>
+    <string name="task_already_done">Már teljesített</string>
+    <string name="cleardone">Teljesítettség visszavonása</string>
+    <string name="show_completed">Elvégzett feladatok megjelenítése</string>
+    <string name="completed">Teljesítve</string>
+    <string name="delete_proceed">Biztosan törlöd?</string>
+    <string name="show_confirmalert">Törlés előtt megerősítő kérdés</string>
+    <string name="task_order">Feladatsorrendezés alapja</string>
+    <string name="display_options">Megjelenítés</string>
+    <string name="action_options">Műveletek</string>
+    <string name="delete_completed">Teljesítettek törlése</string>
+    <string name="delete_all">Összes törlése</string>
+    <string name="no_category_found">Még nem adtál meg kategóriákat.</string>
+    <string name="show_unprioritized">Nem besorolt feladatok megjelenítése</string>
+
+    <!-- Strings related to Settings -->
+    <string-array name="orderby_entries">
+        <item>Megnevezés</item>
+        <item>Fontosság</item>
+        <item>Határidő</item>
+        <item>Létrehozás időpontja</item>
+    </string-array>
+
+</resources>
